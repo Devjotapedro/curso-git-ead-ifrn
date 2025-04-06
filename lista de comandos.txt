@@ -1,0 +1,12 @@
+lista de comandos:
+mkdir curso-git-ead-ifrn
+cd curso-git-ead-ifrn
+git init --initial-branch=main
+git config user.name "Joao Pedro"
+git config user.email "dev.jotapedro@gmail.com"
+git add tarefa-unidade-1.txt
+git commit -m "primeiro commit"
+git remote add origin https://github.com/Devjotapedro/curso-git-ead-ifrn.git
+git push -u origin main
+git add .
+git commit -m "segundo commit com lista de comandos"
